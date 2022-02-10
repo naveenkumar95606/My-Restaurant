@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<title>Add New Patient</title>
+<style>
+
+input[type=text], select {
+  width: 23%;
+  padding: 12px 20px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 2px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 22%;
+  background-color: #800080;
+  color: white;
+  padding: 14px 20px;
+  margin: 16px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #800080;
+}
+
+div {
+  border-radius: 5px;
+  background-color:#36D1DC;
+  padding: 20px;
+}
+</style>
+
+<center>
+
+<body style="background-color:#004e92;">
+
+<center><font size="6px"><b><p style="color:orange;">ADD NEW PATIENT</p></font></b></center>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname" style="color:white;"><b><font size="5px">First Name</font></b></label>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+    <input type="text" id="fname" name="firstname" placeholder="Patient Name..">
+
+</br>
+
+    <label for="fname" style="color:white;"><b><font size="5px">Last Name</font></b></label>&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;
+    <input type="text" id="lname" name="lastname" placeholder="Patient Last Name..">
+
+</br>
+
+    <label for="fname" style="color:white;"><b><font size="5px">Age</font></b></label>&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" id="lname" name="lastname" placeholder="Patient Age..">
+
+</br>
+
+    <label for="fname" style="color:white;"><b><font size="5px">Gender</font></b></label>&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <select id="country" name="country">
+      <option value="australia">Male</option>
+      <option value="canada">Female</option>
+      <option value="usa">Other</option>
+    </select>
+
+</br>
+
+<label for="fname" style="color:white;"><b><font size="5px">Mobile No.</font></b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" id="lname" name="lastname" placeholder="Patient Mobile Number..">
+
+</br>
+
+<label for="fname" style="color:white;"><b><font size="5px">Email Add.</font></b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" id="lname" name="lastname" placeholder="Patient Email Add..">
+
+</br>
+
+<label for="fname" style="color:white;"><b><font size="5px">Blood Group</font></b></label>&nbsp;&nbsp;
+    <input type="text" id="lname" name="lastname" placeholder="Patient Blood Group..">
+
+</br>
+
+<label for="fname" style="color:white;"><b><font size="5px">Address</font></b></label>&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" id="lname" name="lastname" placeholder="Patient Address..">
+
+</br>
+  
+   <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
